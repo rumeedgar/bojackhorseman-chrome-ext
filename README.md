@@ -1,4 +1,3 @@
-
 # BoJackify Chrome Extension
 
 The BoJackify Chrome Extension is a whimsical project that adds a touch of BoJack Horseman to your web browsing experience. Every image on the website you visit will be replaced with a random image of the iconic character, BoJack Horseman.
