@@ -16,3 +16,8 @@ for (let i = 0; i < imgs.length; i++) {
     const randomImg = Math.floor(Math.random() * bojackHorsemanImages.length);
     imgs[i].src = bojackHorsemanImages[randomImg];
 }
+
+const headers = document.getElementsByTagName("h2");
+for (let i = 0; i < headers.length; i++) {
+    headers[i].innerText = "Bojack Horseman is rad";
+}
