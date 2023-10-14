@@ -17,7 +17,7 @@ for (let i = 0; i < imgs.length; i++) {
     imgs[i].src = bojackHorsemanImages[randomImg];
 }
 
-const headers = document.getElementsByTagName("h2");
-for (let i = 0; i < headers.length; i++) {
-    headers[i].innerText = "Bojack Horseman is rad";
-}
+// const headers = document.getElementsByTagName("h1");
+// for (let i = 0; i < headers.length; i++) {
+//     headers[i].innerText = "Bojack Horseman is rad";
+// }
