@@ -10,3 +10,9 @@ let bojackHorsemanImages = [
     "https://cdn.vox-cdn.com/thumbor/Dmz7-cFg2pkzJU88RWwOxoyYGNU=/0x0:1200x800/1200x800/filters:focal(499x296:691x488)/cdn.vox-cdn.com/uploads/chorus_image/image/66212086/bojack_end_netflix_ringer.0.jpg",
     "https://www.hollywoodreporter.com/wp-content/uploads/2016/07/bojack_horseman_s03e02_still.jpg?w=3000",
 ];
+
+const imgs = document.getElementsByTagName("img");
+for (let i = 0; i < imgs.length; i++) {
+    const randomImg = Math.floor(Math.random() * bojackHorsemanImages.length);
+    imgs[i].src = bojackHorsemanImages[randomImg];
+}
